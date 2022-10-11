@@ -1,0 +1,3 @@
+#! /bin/bash
+
+python3 /usr/local/bin/change_case.py -$1 "$(xclip -selection primary -o)" 
